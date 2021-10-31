@@ -53,7 +53,7 @@ d. its current state.
 
 > Beware that bugs in kernel code may either crash your kernel immediately or may have no immediate visible effect, but may have a delayed effect. Therefore, you cannot assume that the thing you did most recently is necessarily the cause of a crash.
 
-Implemented a user-space C program that opens character device and outputs the list of processes retrieved from the character device.
+Also, Implemented a user-space C program that opens character device and outputs the list of processes retrieved from the character device.
 
 1. Run `make` in `Part C` directory.
 2. Run below command to insert .ko file to kernel.

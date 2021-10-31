@@ -46,10 +46,10 @@ The second file hello_world_n.c is similar, except that it takes command-line ar
 
 Implemented a kernel module that creates a /dev/process_list character device. The character device supports the read() operation. When the read() system call is invoked on the character device from a user space process, kernel module will return the following information about all currently running processes:
 
-	a. process ID  
-	b. parent process ID  
-	c. the CPU on which the process is running  
-	d. its current state.  
+a. process ID  
+b. parent process ID  
+c. the CPU on which the process is running  
+d. its current state.  
 
 > Beware that bugs in kernel code may either crash your kernel immediately or may have no immediate visible effect, but may have a delayed effect. Therefore, you cannot assume that the thing you did most recently is necessarily the cause of a crash.
 

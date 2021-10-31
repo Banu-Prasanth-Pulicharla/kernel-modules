@@ -5,3 +5,9 @@ To develop and use kernel modules and character devices. And learn how the Linux
 
 ## Part A: Learn how to write and execute a Linux kernel module.
 
+## Part B: Learn how to write a miscellaneous character device driver
+
+## Part C: Write a kernel module to return list of processes to user space via a character device
+##         Write a user space program to retrieve the list of processes from the kernel module
+
+test

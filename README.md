@@ -7,7 +7,9 @@ To develop and use kernel modules and character devices. And learn how the Linux
 ### How To Run?
 1. Run `make` in "Part A" directory.
 2. Run below command to insert .ko files to kernel.
-    ```sh  
+    ```sh
+	if 
+	fi
 	sudo insmod hello_world.ko
     sudo insmod hello_world_n.ko whom=class howmany=10
 	```  
